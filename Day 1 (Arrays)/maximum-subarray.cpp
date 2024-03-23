@@ -1,6 +1,8 @@
 class Solution
 {
 public:
+#include <vector>
+
     int maxSubArray(vector<int> &nums)
     {
 
@@ -8,6 +10,7 @@ public:
         int maxmSum = 0;
 
         const int maxm = *max_element(nums.begin(), nums.end());
+
         if (maxm <= 0)
             return maxm;
 

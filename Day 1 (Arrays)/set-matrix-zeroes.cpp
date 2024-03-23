@@ -1,6 +1,8 @@
 class Solution
 {
 public:
+#include <vector>
+
     void paintAllRow(vector<vector<int>> &matrix, int row, int from, int to)
     {
 
